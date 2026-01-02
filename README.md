@@ -3,9 +3,11 @@
 This is the source code for the RISC-V 32-bit Pipeline that I have created.
 
 It contains branching logics, control logics, fully functional F/D/X/M/W stages, with pipeline registers
-with stall, forwarding/bypassing logic, and flush using SystemVerilog
+with stall, forwarding/bypassing logic, and flushing/squashing using SystemVerilog
 
 With possible further improvement to Branch Prediction and cache coreherence system when cache is updated along with memory allocations
+
+Testbench are also located within the file to test the local issues that might occur within the code and for easy detection of the local issues for each stages along with stall, bypassing, and flushing with their own pipeline testbench
 
 # Datapath of The Pipeline
 <img width="586" height="286" alt="image" src="https://github.com/user-attachments/assets/dcf56d0b-88b6-4bf0-96f0-f5317496ee81" />
