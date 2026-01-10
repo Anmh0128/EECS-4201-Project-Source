@@ -1,4 +1,4 @@
-# 🧠 32-bit RISC-V 5-Stage Pipelined Processor (RV32I)
+# 🖥️ 32-bit RISC-V 5-Stage Pipelined Processor (RV32I)
 
 A fully functional **32-bit in-order RISC-V pipelined core** implemented in **SystemVerilog**, featuring complete hazard handling, control logic, and verification testbenches.
 
