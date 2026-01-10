@@ -62,92 +62,64 @@ This project was developed as part of **EECS 4201 – Computer Architecture** an
 │   └── Makefile
 │
 └── README.md
+```
 
-🔁 Hazard & Control Handling Overview
-Data Hazards
+##🔁 Hazard & Control Handling Overview
+# Data Hazards
+ - RAW hazard detection in Decode stage
+ - Forwarding paths from:
+    - MEM → EX
+    - WB → EX
+    - WB → MEM
+  - Automatic stall insertion when forwarding is not possible
 
-RAW hazard detection in Decode stage
+# Control Hazards
+ - Branch decision handled in Execute stage
+ - Pipeline flush on taken branch
+ - Squashing of incorrect instructions
 
-Forwarding paths from:
+##🧪 Verification Strategy
+ - Dedicated stage-level testbenches for:
+    - Stages
+    - Full pipeline integration
+ - Designed for:
+   - Localized bug detection
+   - Easier debugging of stalls, bypassing, and flushing
+ - Tested using ModelSim
 
-EX → EX
+##🛠️ Tools & Technologies
+ - SystemVerilog
+ - ModelSim
+ - Makefile-based simulation
+ - Git / GitHub
+ - Linux development environment
 
-MEM → EX
+##🔮 Future Improvements
+ - Dynamic branch prediction
+ - Instruction and data caches
+ - Cache coherence support
+ - Memory allocation and MMU extensions
+ - Performance counters
 
-WB → EX
-
-Automatic stall insertion when forwarding is not possible
-
-Control Hazards
-
-Branch decision handled in Execute stage
-
-Pipeline flush on taken branch
-
-Squashing of incorrect instructions
-
-🧪 Verification Strategy
-
-Dedicated stage-level testbenches for:
-
-Fetch
-
-Decode
-
-Execute
-
-Hazard unit
-
-Full pipeline integration testbench
-
-Designed for:
-
-Localized bug detection
-
-Easier debugging of stalls, bypassing, and flushing
-
-Tested using ModelSim
-
-🛠️ Tools & Technologies
-
-SystemVerilog
-
-ModelSim
-
-Makefile-based simulation
-
-Git / GitHub
-
-Linux development environment
-
-🔮 Future Improvements
-
-Dynamic branch prediction
-
-Instruction and data caches
-
-Cache coherence support
-
-Memory allocation and MMU extensions
-
-Performance counters
-
-📚 Educational Value
-
+##📚 Educational Value
 This project closely mirrors:
-
-Industry-style RTL design
-
-Pipeline hazard resolution logic
-
-Verification-driven development
-
-Modular, maintainable hardware architecture
-
+ - Industry-style RTL design
+ - Pipeline hazard resolution logic
+ - Verification-driven development
+ - Modular, maintainable hardware architecture
 It is suitable as:
+ - A reference RISC-V pipeline implementation
+ - A teaching aid for computer architecture
+ - A foundation for research or extension
 
-A reference RISC-V pipeline implementation
+## 👤 Author
+#Minhyeok An
+Computer Engineering Graduate — York University
+Specialization: Computer Architecture & Digital Hardware
+🔗 GitHub: https://github.com/Anmh0128
+🔗 LinkedIn: https://linkedin.com/in/minhyeok-an
 
-A teaching aid for computer architecture
-
-A foundation for research or extension
+```markdown
+![SystemVerilog](https://img.shields.io/badge/SystemVerilog-RTL-blue)
+![RISC-V](https://img.shields.io/badge/RISC--V-RV32I-orange)
+![ModelSim](https://img.shields.io/badge/Verified-ModelSim-green)
