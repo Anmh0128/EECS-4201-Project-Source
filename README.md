@@ -64,7 +64,7 @@ This project was developed as part of **EECS 4201 – Computer Architecture** an
 └── README.md
 ```
 
-##🔁 Hazard & Control Handling Overview
+## 🔁 Hazard & Control Handling Overview
 # Data Hazards
  - RAW hazard detection in Decode stage
  - Forwarding paths from:
@@ -78,7 +78,7 @@ This project was developed as part of **EECS 4201 – Computer Architecture** an
  - Pipeline flush on taken branch
  - Squashing of incorrect instructions
 
-##🧪 Verification Strategy
+## 🧪 Verification Strategy
  - Dedicated stage-level testbenches for:
     - Stages
     - Full pipeline integration
@@ -87,21 +87,21 @@ This project was developed as part of **EECS 4201 – Computer Architecture** an
    - Easier debugging of stalls, bypassing, and flushing
  - Tested using ModelSim
 
-##🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
  - SystemVerilog
  - ModelSim
  - Makefile-based simulation
  - Git / GitHub
  - Linux development environment
 
-##🔮 Future Improvements
+## 🔮 Future Improvements
  - Dynamic branch prediction
  - Instruction and data caches
  - Cache coherence support
  - Memory allocation and MMU extensions
  - Performance counters
 
-##📚 Educational Value
+## 📚 Educational Value
 This project closely mirrors:
  - Industry-style RTL design
  - Pipeline hazard resolution logic
