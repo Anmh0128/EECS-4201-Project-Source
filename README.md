@@ -123,7 +123,6 @@ Specialization: Computer Architecture & Digital Hardware
 
 🔗 LinkedIn: https://linkedin.com/in/minhyeok-an
 
-```markdown
 ![SystemVerilog](https://img.shields.io/badge/SystemVerilog-RTL-blue)
 ![RISC-V](https://img.shields.io/badge/RISC--V-RV32I-orange)
 ![ModelSim](https://img.shields.io/badge/Verified-ModelSim-green)
