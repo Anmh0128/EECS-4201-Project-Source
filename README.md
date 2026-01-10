@@ -113,10 +113,14 @@ It is suitable as:
  - A foundation for research or extension
 
 ## 👤 Author
-#Minhyeok An
+# Minhyeok An
+
 Computer Engineering Graduate — York University
+
 Specialization: Computer Architecture & Digital Hardware
+
 🔗 GitHub: https://github.com/Anmh0128
+
 🔗 LinkedIn: https://linkedin.com/in/minhyeok-an
 
 ```markdown
