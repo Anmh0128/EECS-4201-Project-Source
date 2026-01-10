@@ -55,7 +55,7 @@ This project was developed as part of **EECS 4201 – Computer Architecture** an
 │   └── pipeline_registers/
 │
 ├── testbench/
-│   ├── tb_pp.sv
+│   ├── pp_tb.sv
 │   └── fdxmw_tb.sv
 │
 ├── scripts/
