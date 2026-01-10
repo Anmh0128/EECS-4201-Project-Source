@@ -6,7 +6,7 @@ This project was developed as part of **EECS 4201 – Computer Architecture** an
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
 - **RV32I ISA Support**
 - **Classic 5-stage pipeline**
